@@ -7,10 +7,8 @@
 }
 button {
     padding: 10px;
-    margin: 20px;
-    display: flex;
 }
-.locations{
+.locations {
     width: 50%;
     float: right;
     display: flex;
@@ -18,7 +16,10 @@ button {
     height: 80px;
     margin: 20px 0;
 }
-.maptypes{
+.locations button{
+    margin: 20px 0 20px 25px;
+}
+.maptypes {
     width: 50%;
     float: left;
     display: flex;
@@ -26,11 +27,14 @@ button {
     height: 80px;
     margin: 20px 0;
 }
-.separator{
+.maptypes button{
+    margin: 20px 25px 20px 0;
+}
+.separator {
     outline: solid;
     float: left;
-    height: 120px ;
+    height: 120px;
 }
-.note{
+.note {
     font-size: 12px;
 }

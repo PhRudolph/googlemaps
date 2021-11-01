@@ -62,7 +62,6 @@ export class MapComponent implements OnInit {
     }
   }
   hymap(): void {
-
     this.options = {
       center: {
         lat: 53.286805,

@@ -1,4 +1,4 @@
-<div class="note">Note: The marker added when access to location is allowed is a set one in Hamburg</div>
+<div class="note">Note: Currently the marker added when access to location is granted, is a set one in Hamburg</div>
 <div class="maptypes">
     <button (click)="rdmap()">Roadmap</button>
     <button (click)="hymap()">Hybrid</button>
@@ -12,5 +12,4 @@
     <google-map [options]="options" >
         <map-marker *ngFor="let maposition of maarr" [options]="maoptions" [position]="maposition"> </map-marker>
     </google-map>
-    
 </div>
